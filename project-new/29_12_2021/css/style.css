@@ -1,0 +1,126 @@
+@font-face{
+    font-family: Justus-Italic; 
+    src: url(../fonts/Justus-Italic.ttf);
+}
+@font-face{
+    font-family: Lovelo-Black; 
+    src: url(../fonts/Lovelo_Black.otf);
+}
+@font-face{
+    font-family: Justus-Oldstyle;
+    src: url(../fonts/Justus-Oldstyle.ttf);
+}
+body{
+    background: url(../img/bg.png);
+    margin: 0;
+}
+/************************************HEADER**********************************/
+header{
+    padding-top: 14px;
+}
+.logotext1{
+    font-size: 14px;
+    font-family: Justus-Italic;
+    float: left;
+    margin: 44px 11px 0 83px;
+    letter-spacing: 0.3px;
+}
+.logotext2 {
+    float: left;
+    font-family: Justus-Italic;
+    font-size: 14px;
+    color: brown;
+    text-transform: uppercase;
+    margin:  44px 10px 10px 13px;
+    letter-spacing: 0.34px;
+}
+.logoimg{
+    float: left;
+}
+/************************************MAIN**********************************/
+main{
+    background: url(../img/fon\ \(1\).png) no-repeat;
+    padding: 1px;
+    padding-left: 79px;
+    margin-top: -9px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 979px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+
+.one{
+    font-family: Lovelo-Black;
+    letter-spacing: 7px;
+    font-size: 50px;
+    margin: 73px 9px 0 22px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding: 20px 0 18px 0;
+    text-align: center;
+    box-shadow: 0 -2px 0 0 #e5e5e5,0 -3px 0 0 black,0 2px 0 0 #e5e5e5,0 3px 0 0 black;
+    
+}
+.images{
+    position: relative;
+    width: 445px;
+    border-right: 1px solid gray;
+    float: left;
+}
+
+
+.bissnes{
+    margin-top: 50px;
+    
+}
+section a{
+    background: black;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 12px;
+    font-family: Lovelo-Black;
+    padding: 12px 12px;
+    bottom: 10px;
+    right: 37px;
+}
+section:hover{
+    background: #c45f5f;
+}
+.images img{
+    box-shadow: 0 -5px 0 0 black;
+}
+.artic{
+    float: left;
+    width: 377px;
+    padding-left: 36px;
+}
+.artic header{
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Lovelo-Black;
+    letter-spacing: 1.7px;
+    line-height: 1.2;
+    padding-top: 0;
+}
+.artic h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    font-family: Lovelo-Black;
+}
+.artic p{
+    font-family: Justus-Oldstyle;
+    font-size: 14px;
+    margin-top: -3px;
+    line-height: 1.4;
+
+
+}
